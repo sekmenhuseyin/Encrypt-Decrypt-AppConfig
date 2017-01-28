@@ -52,7 +52,7 @@
             this.panel1.Controls.Add(this.cmdOpen);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(268, 70);
+            this.panel1.Size = new System.Drawing.Size(303, 70);
             this.panel1.TabIndex = 5;
             // 
             // label1
@@ -68,12 +68,12 @@
             // 
             this.txtEncryption.Location = new System.Drawing.Point(15, 38);
             this.txtEncryption.Name = "txtEncryption";
-            this.txtEncryption.Size = new System.Drawing.Size(214, 20);
+            this.txtEncryption.Size = new System.Drawing.Size(255, 20);
             this.txtEncryption.TabIndex = 6;
             // 
             // cmdOpen
             // 
-            this.cmdOpen.Location = new System.Drawing.Point(235, 38);
+            this.cmdOpen.Location = new System.Drawing.Point(276, 37);
             this.cmdOpen.Name = "cmdOpen";
             this.cmdOpen.Size = new System.Drawing.Size(22, 20);
             this.cmdOpen.TabIndex = 5;
@@ -88,12 +88,12 @@
             this.panel2.Controls.Add(this.cmdEncrypt);
             this.panel2.Location = new System.Drawing.Point(12, 88);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(268, 49);
+            this.panel2.Size = new System.Drawing.Size(303, 49);
             this.panel2.TabIndex = 6;
             // 
             // cmdDecrypt
             // 
-            this.cmdDecrypt.Location = new System.Drawing.Point(137, 13);
+            this.cmdDecrypt.Location = new System.Drawing.Point(173, 13);
             this.cmdDecrypt.Name = "cmdDecrypt";
             this.cmdDecrypt.Size = new System.Drawing.Size(104, 23);
             this.cmdDecrypt.TabIndex = 3;
@@ -115,12 +115,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(292, 141);
+            this.ClientSize = new System.Drawing.Size(327, 141);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "EncryptDecrypt";
+            this.ShowIcon = false;
             this.Text = "Encrypt Decrypt Connection String";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
